@@ -39,6 +39,7 @@ Contains the freeRTOS task and all necessary support
 extern "C" {
 #endif
 
+extern QueueHandle_t wifi_manager_queue;
 
 /**
  * @brief Defines the maximum size of a SSID name. 32 is IEEE standard.
